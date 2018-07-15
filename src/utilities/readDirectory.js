@@ -77,7 +77,7 @@ export default (directoryPath, options = {}) => {
   }
 
   const {
-    extensions = ['js'],
+    extensions = ['js', 'jsx'],
     config = {}
   } = options;
 
